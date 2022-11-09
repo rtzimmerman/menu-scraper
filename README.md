@@ -6,9 +6,14 @@ npm i
 npm start
 ```
 
-## Build Docker image
+## Build Docker image locally
 ```bash
 docker build . -t menu-scraper
+```
+
+## Pull from Docker Hub
+```bash
+docker pull rtzimmerman/menu-scraper:latest
 ```
 
 ## Run Docker container
